@@ -1,0 +1,20 @@
+.policy {
+    list-style: none;
+    padding: 0;
+    margin-top: 30%;
+}
+
+.policy > span {
+    font-size: 24px;
+}
+
+h2.special_title {
+    font-family: inherit;
+}
+
+@media (max-width: 600px)
+{
+    .policy {
+        margin-top: 10%;
+    }
+}
