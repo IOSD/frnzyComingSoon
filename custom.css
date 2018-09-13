@@ -1,11 +1,29 @@
 .policy {
     list-style: none;
     padding: 0;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .policy > span {
     font-size: 24px;
+}
+
+.policy > li > a{
+    color: black;
+}
+
+.contact {
+    list-style: none;
+    padding: 0;
+    margin-top: 5%;
+}
+
+.contact > span {
+    font-size: 24px;
+}
+
+.contact > li > a{
+    color: black;
 }
 
 h2.special_title {
@@ -15,6 +33,10 @@ h2.special_title {
 @media (max-width: 600px)
 {
     .policy {
-        margin-top: 10%;
+        margin-top: 5%;
+    }
+
+    .contact {
+        margin-top: 1%;
     }
 }
